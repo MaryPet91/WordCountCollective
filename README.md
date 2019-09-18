@@ -35,22 +35,22 @@ Sono stati effettuati due tipi di test: strong scalability e weak scalability.
 La strong scalabilty è stata fatta mantenendo la taglia dell'input uguale (32 file e ogni file con circa 100 mila parole) e aumentando ad ogni esecuzione il numero dei processi.
 Il grafico mostra l'andamento reale ed idele dove notiamo che da 1 processo a 8 processi scala, con più processi invece tende a risalire il tempo d'esecuzione perchè il tempo di sincronizzazione dei processi è maggiore del tempo di computazione.
 
-[![StrongScalability.png](https://i.ibb.co/ZXB6f7x/Strong-Scalability.png)]
+![StrongScalability.png](https://i.ibb.co/ZXB6f7x/Strong-Scalability.png)
 
 Di seguito si trova la tabella dei tempi relativi alle esecuzioni:
 
-[![RisultatiStrongScalability.png](https://i.ibb.co/YRYwH8p/Risultati-Strong-Scalability.png")]
+![RisultatiStrongScalability.png](https://i.ibb.co/YRYwH8p/Risultati-Strong-Scalability.png")
 
 ##### Weak scalability
 
 La weak scalability è stata fatta aumentando il numero di file in base al numero di processi. Quindi parte eseguendo il programma con 1 processo e 1 file fino ad arrivare a 32 processi con 32 file.
 Il grafico sottostante mostra l'andamento reale del programma.
 
-[![WeakScalability.png](https://i.ibb.co/B48Bhsq/Weak-Scalability.png)]
+![WeakScalability.png](https://i.ibb.co/B48Bhsq/Weak-Scalability.png)
 
 Di seguito si trova la tabella dei tempi relativi alle esecuzioni:
 
-[![RisultatiWeakScalability.png](https://i.ibb.co/jyGm6nR/Risultati-Weak-Scalability.png)]
+![RisultatiWeakScalability.png](https://i.ibb.co/jyGm6nR/Risultati-Weak-Scalability.png)
 
 #### 4. Considerazioni
 
